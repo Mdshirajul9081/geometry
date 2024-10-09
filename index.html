@@ -70,14 +70,24 @@
           <div class="card bg-base-100 w-96 shadow-xl">
             <figure>
               <img
-                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                alt="Shoes" />
+                src="images/parallelogram.png"
+                alt="parallelogram" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div class="card-actions justify-end">
-                <button class="btn btn-primary">Buy Now</button>
+              <h2 class="card-title">parallelogram</h2>
+              <p>Area (A) = b x h</p>
+               <div>
+                <input  id="parallelogram-base"  class="w-24 text-2xl rounded-sm p-2" type="text" placeholder="b">
+                <span>cm</span>
+                <input id="parallelogram-height"  class="w-24 text-2xl rounded-sm p-2" type="text" placeholder="h">
+                <span>cm</span>
+                <div>
+                  <p text="2xl ">area: <span id="parallelogram-area">0</span> <span >cm <sup>2</sup></span></p>
+                </div>
+               </div>
+              </div>
+              <div class="card-actions">
+                <button  onclick="parallelogramCalculationArea()" class="btn btn-primary w-full">calculation</button>
               </div>
             </div>
           </div>
@@ -90,5 +100,6 @@
     </main>
     <script src="js/triangle.js"></script>
     <script src="js/rectangle.js"></script>
+    <script src="js/parallelogram.js"></script>
 </body>
 </html>

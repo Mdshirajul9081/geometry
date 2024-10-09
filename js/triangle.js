@@ -1,10 +1,7 @@
-// get the input field in the base value
-
-
-
-
-
-
+// get the input field in catch the id select 
+//next part get the value in the input value 
+//and convert value in use parseFloat 
+  
 function triangleCalculateArea(){
     const triangleBaseField=document.getElementById('get-base')
     const triangleText=triangleBaseField.value
